@@ -1,0 +1,11 @@
+.kotak {
+     width: 200px;
+     height: 200px;
+     border: 5px solid black;
+     margin: auto;
+     /* border-top-left-radius: 50px;
+     border-bottom-left-radius: 50px;
+     border-bottom-right-radius: 50px;
+     border-top-right-radius: 50px; */
+     border-radius: 50px 50px;
+}

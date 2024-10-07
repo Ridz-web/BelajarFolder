@@ -1,0 +1,12 @@
+p cite {
+     color: red;
+}
+/* tombol spasi artinya "dalam"( p | cite) = cite yang berada di dalam p */
+/* tombol koma artinya "dan" (p,cite) = p dan cite */
+
+blockquote cite {
+     color: blue;
+}
+p {
+     font-size: 24px;
+}

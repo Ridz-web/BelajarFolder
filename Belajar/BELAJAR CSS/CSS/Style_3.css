@@ -1,0 +1,8 @@
+/* group selector */
+h2,p {
+     color: red;
+}
+/* group & class selector */
+.judul, .text {
+     color: blue;
+}

@@ -1,0 +1,12 @@
+.container {
+     width: 500px;
+     margin: 15px auto;
+}
+img {
+     float: left;
+     margin-right: 8px;
+     width: 300px;
+}
+.clear {
+     clear: left;
+}

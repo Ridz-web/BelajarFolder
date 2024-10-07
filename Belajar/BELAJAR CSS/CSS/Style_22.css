@@ -1,0 +1,41 @@
+* {
+     padding: 0px;
+     margin: 0px;
+}
+label,input {
+     color: teal;
+     display: block;
+     width: 100%;
+     padding: 4px
+}
+form {
+     width: 400px;
+     border: 1px solid teal;
+     margin: 30px auto;
+     padding: 20px;
+     border-radius: 10px;
+     font-family: Helvetica,Arial,sans-serif;
+}
+label {
+     margin-left: -1px;
+     margin-top: 10px;
+     font-size: 12px;
+}
+button {
+     width: 50%;
+     margin-top: 25px;
+     margin-left: 25%;
+     background-color: blueviolet;
+     color: white;
+     border-radius: 10px;
+     padding: 8px;
+     font-size: 16px;
+     border: none;
+}
+h3 {
+     color: teal;
+     margin-bottom: 30px;
+}
+body {
+     background-image: url(../Gambar/img6.jpg);
+}

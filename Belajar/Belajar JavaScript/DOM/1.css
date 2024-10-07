@@ -1,0 +1,19 @@
+/** @format */
+
+#teksLengkap {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition:
+        max-height 0.5s ease,
+        opacity 0.5s ease;
+}
+
+#teksLengkap.muncul {
+    opacity: 1;
+    max-height: 500px;
+}
+#teksLengkap.sembunyi {
+    opacity: 0;
+    max-height: 0;
+}

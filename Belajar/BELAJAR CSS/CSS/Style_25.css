@@ -1,0 +1,37 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+body {
+     font-family: 'poppins',sans-serif;
+     color: rgb(150,150,150);
+}
+h2 {
+     color: black;
+}
+.main {
+     width: 450px;
+     margin: 30px auto;
+}
+article img {
+     width: 250px;
+     float: left;
+     /* margin-top: 13px;
+     margin-right: 13px; */
+     margin: 14px 13px 0px 0px;
+}
+.clear {
+     clear: left;
+}
+article h2 {
+     margin-top: 25px;
+     
+}
+hr {
+     border: 1px solid grey;
+     margin-top: 10px;
+}
+p {
+     line-height: 26px;
+     text-align: justify;
+}

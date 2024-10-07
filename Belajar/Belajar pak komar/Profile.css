@@ -1,0 +1,164 @@
+/** @format */
+
+#About {
+    background-color: #dc3545;
+    position: relative;
+    z-index: 3;
+    padding-top: 10rem;
+}
+
+.navbar {
+    position: relative;
+}
+
+header {
+    position: relative;
+
+    height: 70vh;
+    /* Mengatur tinggi header hampir memenuhi layar */
+    display: flex;
+    align-items: center;
+
+    /* Menyelaraskan konten secara vertikal */
+}
+
+header .container {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+
+header .row {
+    width: 100%;
+}
+
+header .header-image {
+    max-width: 700px;
+    /* Menyesuaikan ukuran gambar */
+    height: auto;
+    z-index: 2;
+}
+
+@media (max-width: 996px) {
+    header .header-image {
+        max-width: 400px;
+        /* Menyesuaikan ukuran gambar */
+        height: auto;
+        z-index: 2;
+    }
+}
+
+header svg {
+    position: absolute;
+    width: 100%;
+
+    z-index: 1;
+}
+
+header .line {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    pointer-events: none;
+}
+
+.line-1 {
+    z-index: 15;
+    opacity: 0.5;
+}
+
+.line-2 {
+    z-index: 10;
+    opacity: 0.7;
+}
+
+.line-3 {
+    z-index: 5;
+}
+
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+    z-index: 100;
+}
+
+.wave1 {
+    -webkit-background-size: 50% 80px;
+    background-size: 50% 80px;
+}
+
+.wave2 {
+    -webkit-background-size: 50% 100px;
+    background-size: 50% 100px;
+    animation: animate 12s linear infinite;
+}
+
+.wave3 {
+    -webkit-background-size: 50% 80px;
+    background-size: 50% px;
+    animation: animate 18s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1);
+    }
+
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.5);
+    }
+
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+}
+.text {
+    position: relative;
+    color: #212529;
+    -webkit-text-stroke: 0.3px white;
+    text-transform: uppercase;
+}
+.text:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    content: attr(data-text);
+    color: #dc3545;
+    -webkit-text-stroke: 0.3px #212529;
+    border-bottom: 2px solid #dc3545;
+    overflow: hidden;
+    animation: text-animation 5s linear infinite;
+}
+@keyframes text-animation {
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+    70%,
+    90% {
+        width: 100%;
+    }
+}
+section {
+    padding-top: 5rem;
+}
+a :hover {
+    background-color: #b5b5b54a;
+    animation: hover 0.1s;
+}
+@keyframes hover {
+    0%,
+    100% {
+        background-color: #b5b5b54a;
+        transform: scale(0.9);
+    }
+}

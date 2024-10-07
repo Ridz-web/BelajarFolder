@@ -1,0 +1,22 @@
+ul {
+     list-style: none;
+     padding: 0px;
+     margin: 0px;
+     width: 250px;
+}
+ul li a {
+     display: block;
+     padding-left: 10px;
+     text-decoration: none;
+     background-color: teal;
+     color: white;
+     border-bottom: 2px solid white;
+     font-size: 18px;
+     height: 40px;
+     line-height: 40px;
+}
+ul li a:hover {
+     background-color: goldenrod;
+     color: black;
+     font-family: Helvetica,Arial,sans-serif;
+}

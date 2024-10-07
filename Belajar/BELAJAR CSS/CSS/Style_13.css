@@ -1,0 +1,15 @@
+hr {
+     border: 2px double grey;
+     
+  /* border-width: 2px;
+     border-style: double;
+     border-color: grey; */
+     
+}
+.lineV {
+     width: 100px;
+     height: 100px;
+     border: 2px double grey;
+     /* bisa menggunakan property "border-left/right/bottom/top-style */
+     
+}

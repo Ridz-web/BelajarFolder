@@ -1,0 +1,65 @@
+<!-- @format -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <style type="text/css" media="all">
+            body {
+                text-align: center;
+            }
+            .bgc {
+                background-color: black;
+            }
+            .kotak {
+                width: 25px;
+                height: 25px;
+                margin: 10px auto;
+            }
+            .merah {
+                background-color: red;
+            }
+            .hijau {
+                background-color: green;
+            }
+            .biru {
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="judul">Mengubah Warna</h1>
+        <button id="pencet" onclick="ubahWarna()">Pencet Ini</button>
+        <br />
+        <div class="kotak merah"></div>
+        <input
+            oninput="sliderMerah()"
+            min="0"
+            max="255"
+            type="range"
+            name="merah"
+            id="merah" />
+
+        <div class="kotak hijau"></div>
+        <input
+            oninput="sliderHijau()"
+            min="0"
+            max="255"
+            type="range"
+            name="hijau"
+            id="hijau" />
+
+        <div class="kotak biru"></div>
+        <input
+            oninput="sliderBiru()"
+            min="0"
+            max="255"
+            type="range"
+            name="biru"
+            id="biru" />
+
+        <script src="1.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

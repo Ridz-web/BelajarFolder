@@ -1,0 +1,23 @@
+/* Tag selector */
+h2 {
+     text-align: center;color: red;
+}
+p {
+     color: purple;
+
+/* Class selector */
+}
+.judul {
+      text-align: center;color: blue;
+}
+.Merah {
+      color: green;
+}
+
+/* Id selector */
+#judul {
+     color: yellow;
+}
+#text {
+     color: red;
+}
